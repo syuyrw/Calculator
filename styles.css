@@ -1,0 +1,35 @@
+button {
+    width: 90px;
+    height: 70px;
+    font-size: 20px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#screen {
+    display: flex;
+    border: 2px solid black;
+    height: 70px;
+    text-align: right;
+    justify-content: right;
+    align-items: center;
+    font-size: clamp(20px, 10vw, 30px);
+    padding: 10px;
+}
+
+#number-buttons {
+    position: relative;
+}
+
+.math-btn {
+    font-size: 25px;
+}
+
+.last-row td {
+    text-align: center;
+}

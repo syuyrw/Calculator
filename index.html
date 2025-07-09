@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="number-buttons">
+                <table>
+                    <tr>
+                        <td colspan="4">
+                            <div id="screen"><p></p></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button class="show" id="1">1</button></td>
+                        <td><button class="show" id="2">2</button></td>
+                        <td><button class="show" id="3">3</button></td>
+                        <td><button class="math-btn show" id="add">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="show" id="4">4</button></td>
+                        <td><button class="show" id="5">5</button></td>
+                        <td><button class="show" id="6">6</button></td>
+                        <td>
+                            <button class="math-btn show" id="subtract">-</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button class="show" id="7">7</button></td>
+                        <td><button class="show" id="8">8</button></td>
+                        <td><button class="show" id="9">9</button></td>
+                        <td><button class="math-btn show" id="*">*</button></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="math-btn show" id="decimal">.</button>
+                        </td>
+                        <td><button class="show" id="0">0</button></td>
+                        <td><button id="clear">C</button></td>
+
+                        <td><button class="math-btn show" id="devide">/</button></td>
+                    </tr>
+                    <tr class="last-row">
+                        <td colspan="4">
+                            <button class="math-btn" id="equals">=</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <script type="module" src="scripts.js"></script>
+    </body>
+</html>
