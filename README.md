@@ -19,11 +19,6 @@ This is a interactive web app calculator. It's very simple to use. It is used th
 -   To download the program, simply run this prompt on your command line:
     git clone https://github.com/syuyrw/Calculator
 
-### Executing program
-
--   If you have the Live Server extension installed, you simply need to open the project in VSCode, right click on the index.html file, and click "Open with Live Server".
--   If not, you will need to open the index.html file in a browser
-
 ## Help
 
 One thing to note is that you will need to press the "C" button after running a calculation to clear the screen before typing another equation.
