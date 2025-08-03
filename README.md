@@ -1,5 +1,7 @@
 # Javascript Calculator
 
+[![View Live](https://img.shields.io/badge/Live%20Demo-Calculator-blue?style=for-the-badge)](https://syuyrw.github.io/Calculator/)
+
 To help me develop my Javascript skills, I created this calculator. I wanted to make this specifically because it would help me get better at combining Javascript and HTML to make a program with an interactive UI.
 
 ## Description
