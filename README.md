@@ -34,3 +34,7 @@ Jordan Reitz (@syuyrw) jordancreitz@gmail.com
 Inspiration, code snippets, etc.
 
 -   [Stack Overflow](https://stackoverflow.com/questions)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
