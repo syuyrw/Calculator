@@ -1,7 +1,13 @@
+body, html {
+    margin: 0;
+}
+
 button {
     width: 90px;
     height: 70px;
     font-size: 20px;
+    border: .5px solid black;
+    background-color: white;
 }
 
 #container {
@@ -11,7 +17,19 @@ button {
     height: 100vh;
 }
 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td, tr {
+    padding: 0;
+    margin: 0;
+}
+
 #screen {
+    background-color: #242424;
+    color: white;
     display: flex;
     border: 2px solid black;
     height: 70px;
@@ -20,6 +38,8 @@ button {
     align-items: center;
     font-size: clamp(20px, 10vw, 30px);
     padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #number-buttons {
@@ -28,8 +48,22 @@ button {
 
 .math-btn {
     font-size: 25px;
+    background-color: #e8e8e8;
 }
 
 .last-row td {
     text-align: center;
+}
+
+#equals {
+    background-color: #f88055;
+    border-radius: 20px;
+}
+
+#decimal {
+    border-bottom-left-radius: 20px;
+}
+
+#devide {
+    border-bottom-right-radius: 20px;
 }
